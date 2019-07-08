@@ -2,8 +2,8 @@
 
 ## Feature(s) to document
 
-Steps to reproduce the behavior.
+List of features.
 
 ## Information needed in the documentation
 
-Steps to reproduce the behavior.
+Relevante Information to put in the documentation.

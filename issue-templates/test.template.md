@@ -2,11 +2,11 @@
 
 ## Feature(s) to test
 
-Steps to reproduce the behavior.
+...
 
 ## Tests needed
 
-Steps to reproduce the behavior.
+Cases that you want to be included within the tests.
 
 **Technical specifications**
 
