@@ -11,14 +11,14 @@
 ## 2 - Types
 
 ```js
-{String}
-{Number}
+{String}                // A js type
+{Number}                // Another js type
 {Number[]}              // Array of numbers
 {String|Number}         // Multiple types
 {*}                     // Any types
 {Promise<string[]>}     // Promise fulfilled by array of strings
-{Object} obj
-{Number} obj.a
+{Object} obj            // an literal object
+{Number} obj.a          // property of a literal object (optional)
 {String} obj.c
 ```
 
@@ -67,21 +67,23 @@ const add = (x, y) => x + y;
 
 - Use the first line to comment functions is helpful when using a editor
   - the documentation can be folded while keeping the main explanation
+- Param text description can be omitted ONLY if function and param names are explicit enough
+- If param text description is specified it must me separated to the param name by a ' - '
 
 ### 4.2 - Parameters
 
 ```js
 /**
- * @param {Number} num - description message    // documentation with name type and description
- * @param {String} [str] - description message  // optional parameters
- * @param {Number} [price=20] - a price         // default value
+ * @param {Number} nb - a random number       // documentation with name type and description
+ * @param {String} [str] - a string           // optional parameters
+ * @param {Number} [price=20] - a price       // default value
  * @param {String|Object} person - a person   // with multiples types
  */
 ```
 
 ### 4.3 - Useful keywords
 
-### 4.3.1 - Encapsulation
+### 4.3.1 - Scope Access
 
 ```js
 /**
@@ -107,8 +109,8 @@ For every function that are part of an Event-Subscriber like implementation
 
 ```js
 /**
- * @deprecated // about what the function emits (message, queue, etc)
- * @see        // about what the function listens (message, queue, etc)
+ * @deprecated  // about what the function emits (message, queue, etc)
+ * @see         // about what the function listens (message, queue, etc)
  */
 ```
 
@@ -123,7 +125,24 @@ For every function that are part of an Event-Subscriber like implementation
 
 ### 4.3.4 - Keywords order
 
-to define...
+For a function
+
+```js
+/**
+ * @deprecated
+ * @see
+ * @async
+ * @param
+ * @emits/@listens
+ * @return
+ * @throws
+ * @private|@public
+ */
+```
+
+**NOTES :**
+
+- Keywords are not mandatory. Use it wen you actually have something to define
 
 ## 5 - TAG comments
 
@@ -144,10 +163,14 @@ Multiple TODO comments :
 // - fix: third task description
 ```
 
+**NOTES :**
+
+- Use a commit style expressions to define items on TODO comments (feat, fix, chore, etc...)
+
 ### 5.2 - Good First Issue Comments
 
 Good first issues is a tag added to TODO comments.
 
 ```js
-// TODO: describe the task todo #GFI
+// TODO: feat: describe the task todo #GFI
 ```
