@@ -14,7 +14,7 @@
 {String}
 {Number}
 {Number[]}              // Array of numbers
-{(String|Number)}       // Multiple types
+{String|Number}         // Multiple types
 {*}                     // Any types
 {Promise<string[]>}     // Promise fulfilled by array of strings
 {Object} obj
@@ -26,20 +26,20 @@
 
 - All JavaScript native types can be used
 - Don't use `Array` as it isn't explicit enough
-- Types can be used with `@param`, `@return`, `@const` and `type`
+- Types can be used with `@param`, `@return`, `@const` and `@type`
 
 ## 3 - Constants & variables
 
 ```js
 /**
- * @type {number}
+ * @type {Number}
  */
 let foo = 1;
 ```
 
 ```js
 /**
- * @const {number}
+ * @const {Number}
  */
 
 const FOO = 1;
@@ -72,27 +72,58 @@ const add = (x, y) => x + y;
 
 ```js
 /**
- * @param {Number} num - description message    // documentation with name type and desc
- * @param {String} [n]                          // optional parameters
+ * @param {Number} num - description message    // documentation with name type and description
+ * @param {String} [str] - description message  // optional parameters
  * @param {Number} [price=20] - a price         // default value
- * @param {(String|Object)} person - a person   // with multiples types
+ * @param {String|Object} person - a person   // with multiples types
  */
 ```
 
 ### 4.3 - Useful keywords
 
+### 4.3.1 - Encapsulation
+
+```js
+/**
+ * @private   // for methods internal to the module
+ * @public    // for methods that are exported
+ */
+```
+
+### 4.3.2 - Events
+
+For every function that are part of an Event-Subscriber like implementation
+
+```js
+/**
+ * @emits     // about what the function emits (message, queue, etc)
+ * @listens   // about what the function listens (message, queue, etc)
+ */
+```
+
+### 4.3.3 - Documentation helpers
+
+For every function that are part of an Event-Subscriber like implementation
+
+```js
+/**
+ * @deprecated // about what the function emits (message, queue, etc)
+ * @see        // about what the function listens (message, queue, etc)
+ */
+```
+
+### 4.3.4 - Others
+
 ```js
 /**
  * @throws {FooException}
- * @private
- * @public
- * @deprecated
- * @emits
- * @listens
- * @see                    // can refer to anything external to the function
  * @async                  // for functions that return promises
  */
 ```
+
+### 4.3.4 - Keywords order
+
+to define...
 
 ## 5 - TAG comments
 
@@ -101,7 +132,7 @@ const add = (x, y) => x + y;
 Basic TODO comment
 
 ```js
-// TODO: describe the task todo
+// TODO: feat: describe the task todo
 ```
 
 Multiple TODO comments :
@@ -110,31 +141,12 @@ Multiple TODO comments :
 // TODO:
 // - feat: first task description
 // - refactor: second task description
+// - fix: third task description
 ```
 
-### 5.2 - FIXME Comments
+### 5.2 - Good First Issue Comments
 
-Basic FIXME comment
-
-```js
-// FIXME: describe the fix to apply
-```
-
-Multiple FIXME comments :
-
-```js
-// FIXME:
-// - first fix description
-// - second fix description
-```
-
-### 5.3 - Good First Issue Comments
-
-Good first issues is a tag added to TODO or FIXME comments.
-
-```js
-// FIXME: describe the fix to apply #GFI
-```
+Good first issues is a tag added to TODO comments.
 
 ```js
 // TODO: describe the task todo #GFI
