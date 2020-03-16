@@ -2,7 +2,7 @@
 
 A clear and concise description of what the bug is.
 
-- Is this a regression? : **non || yes || don't know**
+- Is this a regression? : **no || yes || don't know**
 
 ## 🔍 Reproduction Steps
 
