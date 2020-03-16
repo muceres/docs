@@ -2,6 +2,11 @@
 
 A clear and concise description of what the PR do.
 
+See - link to the specs related to the PR -
+
+See #xxx , #xxx
+Close #xxx , #xxx
+
 ## Things done in this PR
 
 - [x] make units tests
@@ -13,7 +18,7 @@ A clear and concise description of what the PR do.
 
 Short description about the tests done in this PR
 
-## Does this PR introduce a breaking change?
+- manual test
+- automated tests
 
-- [ ] Yes
-- [x] No
+## Does this PR introduce a breaking change? **Yes/No**
