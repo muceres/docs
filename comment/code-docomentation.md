@@ -1,4 +1,4 @@
-# Comments
+# Code documentation
 
 ## 1 - Files
 
