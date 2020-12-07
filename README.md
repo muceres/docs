@@ -1,2 +1,3 @@
-# hints
-Personal useful tips &amp; stuffs for developers that I like/use (strongly inspired by https://devhints.io/)
+# docs.saxjst.com
+
+> Useful stuffs I use as a developer
