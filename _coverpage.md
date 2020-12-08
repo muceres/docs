@@ -6,8 +6,7 @@
 
 - Works Offline
 
-[GitHub](https://github.com/saxjst/hints)
-[Get Started](#docsify)
+[GitHub](https://github.com/saxjst/docs.saxjst.com)
 
 <!-- background color -->
 
