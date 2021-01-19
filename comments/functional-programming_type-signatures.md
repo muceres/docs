@@ -1,7 +1,7 @@
 Type Signatures
 ===============
 
-**NOTE:** Taken from [ramda wiki](https://github.com/ramda/ramda/wiki/Type-Signatures)
+**NOTE:** Taken from [ramda wiki](https://github.com/ramda/ramda/wiki/Type-Signatures).
 
 (_or "What are all those funny arrows about?"_)
 
