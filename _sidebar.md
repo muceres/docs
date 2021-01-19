@@ -7,8 +7,7 @@
 * Code Commenting
   * [General](comments/code-documentation.md)
   * [Type signatures for functional programming](comments/functional-programming_type-signatures.md)
-  * [Code Namming](comments/code-namming.md)
-
+  * [Code Naming](comments/code-naming.md)
 
 * Testing
   * [Testing with Jest](testing/cheatsheets.md)
