@@ -9,6 +9,9 @@
   * [Type signatures for functional programming](comments/functional-programming_type-signatures.md)
   * [Code Naming](comments/code-naming.md)
 
+* Project Structure
+  * [Structure your solution by components](project-structure/structure-by-components.md)
+
 * Testing
   * [Testing with Jest](testing/cheatsheets.md)
 
