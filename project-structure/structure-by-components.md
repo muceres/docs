@@ -1,7 +1,5 @@
 # Structure your solution by components
 
-**NOTE:** Taken from [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices#1-project-structure-practices).
-
 ## Overview
 
 **TL;DR:** The worst large applications pitfall is maintaining a huge code base with hundreds of dependencies - such a monolith slows down developers as they try to incorporate new features. Instead, partition your code into components, each gets its folder or a dedicated codebase, and ensure that each unit is kept small and simple. Visit 'Read More' below to see examples of correct project structure
@@ -41,3 +39,6 @@ So what does the architecture of your application scream? When you look at the t
 ### Bad: Group your files by technical role
 
 ![alt text](https://github.com/goldbergyoni/nodebestpractices/blob/master/assets/images/structurebyroles.PNG "Structuring solution by technical roles")
+
+
+**NOTE:** Modified version taken from [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices#1-project-structure-practices).

@@ -11,6 +11,7 @@
 
 * Project Structure
   * [Structure your solution by components](project-structure/structure-by-components.md)
+  * [Wrap common utilities as dependancies manager packages](project-structure/structure-by-features.md)
 
 * Testing
   * [Testing with Jest](testing/cheatsheets.md)
