@@ -20,3 +20,7 @@
   * [Issue templates](version-control-reporting/issue-templates)
   * [Templates for pull request](version-control-reporting/pull-request-templates/pull-request.template.md)
   * [Commits](version-control-reporting/commits.md)
+
+* Tech Stack
+  * [CLI tools](tech-stack/cli-tools.md)
+  * [Desktop tools](tech-stack/desktop-tools.md)
