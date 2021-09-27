@@ -1,3 +1,3 @@
-# docs.saxjst.com
+# docs
 
 > Useful stuffs I use as a developer
