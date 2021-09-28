@@ -6,7 +6,7 @@
 
 - Works Offline
 
-[GitHub](https://github.com/saxjst/docs.saxjst.com)
+[GitHub](https://github.com/muceres/docs)
 
 <!-- background color -->
 
