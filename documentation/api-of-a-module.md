@@ -25,7 +25,7 @@
 No matter if you module is available on npm, on your projet folder or somewhere else, you must indicate how to export it.
 
 ### 1.3 - Usage
-Provide a quick snippet showing rapidly how your module can be used. en exemple [here](https://github.com/saxjst/deep-map-with-key#usage).
+Provide a quick snippet showing rapidly how your module can be used. en exemple [here](https://github.com/muceres/deep-map-with-key#usage).
 
 ### 1.4 - API documentation
 
@@ -68,7 +68,7 @@ This part must contain two informations :
 **Exemple:**
 ```
 # License
-MIT © [saxjst](https://saxjst.com)
+MIT © [muceres](https://forgetheweb.eu)
 ```
 
 ## 2 - Bonus
@@ -76,9 +76,9 @@ MIT © [saxjst](https://saxjst.com)
 ### 2.1 - Exemples of modules
 
 You can find exemples of these practices in some of my open source projects like:
-- [koa-handler](https://github.com/saxjst/koa-handler)
-- [koa-joi-validator](https://github.com/saxjst/koa-joi-validator)
-- [deep-map-with-key](https://github.com/saxjst/deep-map-with-key)
+- [koa-handler](https://github.com/muceres/koa-handler)
+- [koa-joi-validator](https://github.com/muceres/koa-joi-validator)
+- [deep-map-with-key](https://github.com/muceres/deep-map-with-key)
 - etc...
 
 Projets done by other people:
